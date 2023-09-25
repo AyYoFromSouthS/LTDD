@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_myDay">
+
+    <fragment
+        android:id="@+id/nav_myDay"
+        android:name="com.example.test.ui.myday.MyDayFragment"
+        android:label="@string/menu_myDay"
+        tools:layout="@layout/fragment_myday" />
+
+    <fragment
+        android:id="@+id/nav_changePass"
+        android:name="com.example.test.ui.changepassword.ChangePasswordFragment"
+        android:label="Change Password"
+        tools:layout="@layout/fragment_changepassword"/>
+
+    <fragment
+        android:id="@+id/nav_important"
+        android:name="com.example.test.ui.important.ImportantFragment"
+        android:label="@string/menu_important"
+        tools:layout="@layout/fragment_important" />
+    <fragment
+        android:id="@+id/nav_tasks"
+        android:name="com.example.test.ui.tasks.TasksFragment"
+        android:label="@string/menu_tasks"
+        tools:layout="@layout/fragment_tasks" />
+    <fragment
+        android:id="@+id/nav_myProfile"
+        android:name="com.example.test.ui.myprofile.MyProfileFragment"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_myprofile"/>
+</navigation>

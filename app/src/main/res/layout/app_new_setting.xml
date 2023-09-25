@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="30dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="20dp"
+    app:behavior_hideable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="center|right"
+            android:text="List Options"
+            android:textStyle="bold"
+
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btnDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="right|center"
+            android:text="Done"
+            android:textColor="@color/information"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <!-- ddsadsa -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|left"
+        android:id="@+id/appSettingSort"
+        android:paddingBottom="10dp"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:drawableLeft="@drawable/ic_sort" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="Sort"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal"
+        android:gravity="center|left"
+        android:id="@+id/appSettingChangeTheme"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:drawableLeft="@drawable/ic_paint" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="Change theme"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

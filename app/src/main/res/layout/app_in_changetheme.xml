@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="30dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="20dp"
+    app:behavior_hideable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingBottom="15dp"
+        android:weightSum="5">
+
+        <Button
+            android:id="@+id/btnChangeBackSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:background="@android:color/transparent"
+            android:gravity="left|center"
+            android:drawableLeft="@drawable/ic_arrow_left"
+            android:textColor="@color/information"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="Pick a theme"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btnDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@android:color/transparent"
+            android:gravity="right|center"
+            android:text="Done"
+            android:textColor="@color/information"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <!-- ddsadsa -->
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|left"
+        android:paddingBottom="15dp"
+        android:weightSum="5">
+
+        <Button
+            android:id="@+id/btnChangColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_layout_changetheme"
+            android:backgroundTint="@color/ondark_03"
+            android:text="Color"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:textColor="@color/ondark_03"
+            android:textAllCaps="false"/>
+
+
+    </LinearLayout>
+    <include
+        android:id="@+id/change"
+        layout="@layout/app_showcolor_in_changetheme"/>
+
+</LinearLayout>

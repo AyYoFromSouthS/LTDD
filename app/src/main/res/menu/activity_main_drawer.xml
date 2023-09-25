@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myDay"
+            android:icon="@drawable/ic_sun"
+            android:title="@string/menu_myDay" />
+        <item
+            android:id="@+id/nav_important"
+            android:icon="@drawable/ic_star_fill"
+            android:title="@string/menu_important" />
+        <item
+            android:id="@+id/nav_tasks"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_tasks" />
+    </group>
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_myProfile"
+                android:icon="@drawable/ic_my_profile"
+                android:title="My Profile"/>
+            <item
+                android:id="@+id/nav_signOut"
+                android:icon="@drawable/baseline_arrow_back_24"
+                android:title="Sign Out"/>
+            <item
+                android:id="@+id/nav_changePass"
+                android:icon="@drawable/ic_change_pass"
+                android:title="Change Password"/>
+        </menu>
+    </item>
+</menu>

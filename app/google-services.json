@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "390910722515",
+    "firebase_url": "https://ltdd-cs2001-nhom1-de516-default-rtdb.firebaseio.com",
+    "project_id": "ltdd-cs2001-nhom1-de516",
+    "storage_bucket": "ltdd-cs2001-nhom1-de516.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390910722515:android:cc78eb582e3ed9fcf6ef26",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390910722515-nchnhe1pds3dda9ns2sm3l3hau463377.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh-tB9gx60Bhl7730P8RR_ZCSxErdiJvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390910722515-nchnhe1pds3dda9ns2sm3l3hau463377.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
